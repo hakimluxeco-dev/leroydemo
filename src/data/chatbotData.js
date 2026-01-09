@@ -36,8 +36,20 @@ export const chatbotKnowledge = [
         response: "You can reach us through our Contact page. We'd love to hear from you!"
     },
     {
-        keywords: ['turnaround', 'how long', 'time'],
+        keywords: ['turnaround', 'how long', 'time', 'duration', 'days', 'weeks'],
         response: "Turnaround times vary by project, but typically upholstery jobs take 2-4 weeks depending on fabric availability and complexity."
+    },
+    {
+        keywords: ['hours', 'open', 'opening', 'close', 'closing'],
+        response: "We are open Monday to Friday from 8:00 AM to 5:00 PM. We are closed on weekends and public holidays."
+    },
+    {
+        keywords: ['services', 'what do you do', 'offer', 'work'],
+        response: "We offer a wide range of services including furniture upholstery, custom slipcovers, patio cushions, furniture restoration, and more!"
+    },
+    {
+        keywords: ['help', 'question', 'support', 'assist'],
+        response: "I'm here to help! You can ask me about our services, pricing, locations, or how to get a quote."
     },
     // Fallback logic will be handled in the component
 ];
